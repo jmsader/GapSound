@@ -1,0 +1,488 @@
+{
+ "worker_pid": 3605,
+ "rss_mb": {
+  "3605": 4452,
+  "3531": 1006,
+  "3572": 699,
+  "3571": 18
+ },
+ "windows": [
+  {
+   "name": "idle-1 (noise floor)",
+   "salt": null,
+   "prompt_tokens": 0,
+   "latency_s": 2.002,
+   "mark_s": 0.192,
+   "accessed_pages": 44,
+   "newly_present_pages": 0,
+   "cache_hit_tokens": 0.0,
+   "cache_query_tokens": 0.0,
+   "top_vmas": [
+    {
+     "start": "0x27b99000",
+     "size_mb": 1418.2,
+     "path": "[heap]",
+     "resident": 361789,
+     "accessed": 9,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe93190834000",
+     "size_mb": 0.0,
+     "path": "",
+     "resident": 3,
+     "accessed": 3,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe931d0982000",
+     "size_mb": 0.0,
+     "path": "",
+     "resident": 5,
+     "accessed": 3,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe931782a0000",
+     "size_mb": 8.0,
+     "path": "",
+     "resident": 3,
+     "accessed": 2,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe93179ad0000",
+     "size_mb": 8.0,
+     "path": "",
+     "resident": 3,
+     "accessed": 2,
+     "newly_present": 0
+    }
+   ]
+  },
+  {
+   "name": "idle-2 (noise floor)",
+   "salt": null,
+   "prompt_tokens": 0,
+   "latency_s": 2.0,
+   "mark_s": 0.067,
+   "accessed_pages": 169,
+   "newly_present_pages": 0,
+   "cache_hit_tokens": 0.0,
+   "cache_query_tokens": 0.0,
+   "top_vmas": [
+    {
+     "start": "0x27b99000",
+     "size_mb": 1418.2,
+     "path": "[heap]",
+     "resident": 361789,
+     "accessed": 40,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe9318ce60000",
+     "size_mb": 4.0,
+     "path": "",
+     "resident": 1024,
+     "accessed": 18,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe93177170000",
+     "size_mb": 1.0,
+     "path": "",
+     "resident": 256,
+     "accessed": 13,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe93173e10000",
+     "size_mb": 3.0,
+     "path": "",
+     "resident": 741,
+     "accessed": 12,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe931d03a0000",
+     "size_mb": 1.0,
+     "path": "",
+     "resident": 256,
+     "accessed": 9,
+     "newly_present": 0
+    }
+   ]
+  },
+  {
+   "name": "short prompt",
+   "salt": null,
+   "prompt_tokens": 10,
+   "latency_s": 1.544,
+   "mark_s": 0.068,
+   "accessed_pages": 246281,
+   "newly_present_pages": 577,
+   "cache_hit_tokens": 0.0,
+   "cache_query_tokens": 10.0,
+   "top_vmas": [
+    {
+     "start": "0x27b99000",
+     "size_mb": 1425.2,
+     "path": "[heap]",
+     "resident": 361985,
+     "accessed": 242895,
+     "newly_present": 196
+    },
+    {
+     "start": "0xe9318a520000",
+     "size_mb": 16.0,
+     "path": "",
+     "resident": 4094,
+     "accessed": 492,
+     "newly_present": 0
+    },
+    {
+     "start": "0x32ff4000000",
+     "size_mb": 1024.0,
+     "path": "",
+     "resident": 92876,
+     "accessed": 463,
+     "newly_present": 368
+    },
+    {
+     "start": "0x33078000000",
+     "size_mb": 2052.0,
+     "path": "",
+     "resident": 524168,
+     "accessed": 241,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe93177170000",
+     "size_mb": 1.0,
+     "path": "",
+     "resident": 256,
+     "accessed": 213,
+     "newly_present": 0
+    }
+   ]
+  },
+  {
+   "name": "long prompt, cold",
+   "salt": null,
+   "prompt_tokens": 831,
+   "latency_s": 4.394,
+   "mark_s": 0.071,
+   "accessed_pages": 250690,
+   "newly_present_pages": 2895,
+   "cache_hit_tokens": 0.0,
+   "cache_query_tokens": 831.0,
+   "top_vmas": [
+    {
+     "start": "0x27b99000",
+     "size_mb": 1432.2,
+     "path": "[heap]",
+     "resident": 362450,
+     "accessed": 242964,
+     "newly_present": 465
+    },
+    {
+     "start": "0x32ff4000000",
+     "size_mb": 1024.0,
+     "path": "",
+     "resident": 71046,
+     "accessed": 2883,
+     "newly_present": 2428
+    },
+    {
+     "start": "0x33078000000",
+     "size_mb": 2052.0,
+     "path": "",
+     "resident": 524168,
+     "accessed": 2641,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe9318a520000",
+     "size_mb": 16.0,
+     "path": "",
+     "resident": 4094,
+     "accessed": 421,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe93177170000",
+     "size_mb": 1.0,
+     "path": "",
+     "resident": 256,
+     "accessed": 205,
+     "newly_present": 0
+    }
+   ]
+  },
+  {
+   "name": "long again, NO salt (hit)",
+   "salt": null,
+   "prompt_tokens": 831,
+   "latency_s": 1.741,
+   "mark_s": 0.068,
+   "accessed_pages": 247970,
+   "newly_present_pages": 396,
+   "cache_hit_tokens": 768.0,
+   "cache_query_tokens": 831.0,
+   "top_vmas": [
+    {
+     "start": "0x27b99000",
+     "size_mb": 1432.2,
+     "path": "[heap]",
+     "resident": 362710,
+     "accessed": 242653,
+     "newly_present": 260
+    },
+    {
+     "start": "0x33078000000",
+     "size_mb": 2052.0,
+     "path": "",
+     "resident": 524168,
+     "accessed": 2641,
+     "newly_present": 0
+    },
+    {
+     "start": "0x32ff4000000",
+     "size_mb": 1024.0,
+     "path": "",
+     "resident": 68789,
+     "accessed": 582,
+     "newly_present": 132
+    },
+    {
+     "start": "0xe9318a520000",
+     "size_mb": 16.0,
+     "path": "",
+     "resident": 4094,
+     "accessed": 401,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe93177170000",
+     "size_mb": 1.0,
+     "path": "",
+     "resident": 256,
+     "accessed": 208,
+     "newly_present": 0
+    }
+   ]
+  },
+  {
+   "name": "long, salt=userX (cold)",
+   "salt": "userX",
+   "prompt_tokens": 831,
+   "latency_s": 4.381,
+   "mark_s": 0.068,
+   "accessed_pages": 256376,
+   "newly_present_pages": 8512,
+   "cache_hit_tokens": 0.0,
+   "cache_query_tokens": 831.0,
+   "top_vmas": [
+    {
+     "start": "0x27b99000",
+     "size_mb": 1432.2,
+     "path": "[heap]",
+     "resident": 362791,
+     "accessed": 242756,
+     "newly_present": 81
+    },
+    {
+     "start": "0x32ff4000000",
+     "size_mb": 1024.0,
+     "path": "",
+     "resident": 77213,
+     "accessed": 8874,
+     "newly_present": 8429
+    },
+    {
+     "start": "0x33078000000",
+     "size_mb": 2052.0,
+     "path": "",
+     "resident": 524168,
+     "accessed": 2641,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe9318a520000",
+     "size_mb": 16.0,
+     "path": "",
+     "resident": 4094,
+     "accessed": 398,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe93177170000",
+     "size_mb": 1.0,
+     "path": "",
+     "resident": 256,
+     "accessed": 207,
+     "newly_present": 0
+    }
+   ]
+  },
+  {
+   "name": "long, salt=userX again (hit)",
+   "salt": "userX",
+   "prompt_tokens": 831,
+   "latency_s": 1.784,
+   "mark_s": 0.068,
+   "accessed_pages": 247891,
+   "newly_present_pages": 175,
+   "cache_hit_tokens": 768.0,
+   "cache_query_tokens": 831.0,
+   "top_vmas": [
+    {
+     "start": "0x27b99000",
+     "size_mb": 1432.2,
+     "path": "[heap]",
+     "resident": 362791,
+     "accessed": 242620,
+     "newly_present": 0
+    },
+    {
+     "start": "0x33078000000",
+     "size_mb": 2052.0,
+     "path": "",
+     "resident": 524168,
+     "accessed": 2641,
+     "newly_present": 0
+    },
+    {
+     "start": "0x32ff4000000",
+     "size_mb": 1024.0,
+     "path": "",
+     "resident": 68809,
+     "accessed": 586,
+     "newly_present": 174
+    },
+    {
+     "start": "0xe9318a520000",
+     "size_mb": 16.0,
+     "path": "",
+     "resident": 4094,
+     "accessed": 394,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe93177170000",
+     "size_mb": 1.0,
+     "path": "",
+     "resident": 256,
+     "accessed": 208,
+     "newly_present": 0
+    }
+   ]
+  },
+  {
+   "name": "long, salt=userY (cold)",
+   "salt": "userY",
+   "prompt_tokens": 831,
+   "latency_s": 4.404,
+   "mark_s": 0.067,
+   "accessed_pages": 247887,
+   "newly_present_pages": 4,
+   "cache_hit_tokens": 0.0,
+   "cache_query_tokens": 831.0,
+   "top_vmas": [
+    {
+     "start": "0x27b99000",
+     "size_mb": 1432.2,
+     "path": "[heap]",
+     "resident": 362791,
+     "accessed": 242754,
+     "newly_present": 0
+    },
+    {
+     "start": "0x33078000000",
+     "size_mb": 2052.0,
+     "path": "",
+     "resident": 524168,
+     "accessed": 2641,
+     "newly_present": 0
+    },
+    {
+     "start": "0x32ff4000000",
+     "size_mb": 1024.0,
+     "path": "",
+     "resident": 68787,
+     "accessed": 448,
+     "newly_present": 4
+    },
+    {
+     "start": "0xe9318a520000",
+     "size_mb": 16.0,
+     "path": "",
+     "resident": 4094,
+     "accessed": 392,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe93177170000",
+     "size_mb": 1.0,
+     "path": "",
+     "resident": 256,
+     "accessed": 207,
+     "newly_present": 0
+    }
+   ]
+  },
+  {
+   "name": "idle-3 (noise floor)",
+   "salt": null,
+   "prompt_tokens": 0,
+   "latency_s": 2.002,
+   "mark_s": 0.068,
+   "accessed_pages": 253,
+   "newly_present_pages": 0,
+   "cache_hit_tokens": 0.0,
+   "cache_query_tokens": 0.0,
+   "top_vmas": [
+    {
+     "start": "0x27b99000",
+     "size_mb": 1432.2,
+     "path": "[heap]",
+     "resident": 362791,
+     "accessed": 58,
+     "newly_present": 0
+    },
+    {
+     "start": "0x32ff4000000",
+     "size_mb": 1024.0,
+     "path": "",
+     "resident": 68787,
+     "accessed": 33,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe931a5bd0000",
+     "size_mb": 22.0,
+     "path": "",
+     "resident": 5632,
+     "accessed": 19,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe93173e10000",
+     "size_mb": 3.0,
+     "path": "",
+     "resident": 744,
+     "accessed": 18,
+     "newly_present": 0
+    },
+    {
+     "start": "0xe9318ce60000",
+     "size_mb": 4.0,
+     "path": "",
+     "resident": 1024,
+     "accessed": 18,
+     "newly_present": 0
+    }
+   ]
+  }
+ ]
+}

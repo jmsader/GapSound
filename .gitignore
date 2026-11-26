@@ -1,0 +1,26 @@
+# OS / Python
+.DS_Store
+__pycache__/
+*.pyc
+
+# Logs (server, tracer, setup)
+logs/
+v2/logs/
+results/**/logs/
+results/**/*.log
+
+# Job runner output (job scripts themselves are kept)
+jobs/*.out
+jobs/*.done
+
+# Raw run data: large and regenerable from the code (summaries are kept)
+results/**/*.npz
+results/**/replay-*.json
+results/**/*.tmp
+results/v2-test/
+results/v2-test2/
+
+# Scratch files
+v2/p8.json
+v2/w8.json
+v2/slicer_v1_backup.py

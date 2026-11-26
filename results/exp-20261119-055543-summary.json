@@ -1,0 +1,166 @@
+[
+ {
+  "setting": "shared",
+  "n_requests": 96,
+  "n_pairs": 4560,
+  "same-user": {
+   "overlap": {
+    "auc": 0.9899072816022545,
+    "ci95": [
+     0.9869198928933518,
+     0.9927458133293108
+    ]
+   },
+   "length": {
+    "auc": 0.36719221769323673,
+    "ci95": [
+     0.3300218653731421,
+     0.40332004361922474
+    ]
+   },
+   "timing": {
+    "auc": 0.46157124345813205,
+    "ci95": [
+     0.4170884912630411,
+     0.5029140686137198
+    ]
+   },
+   "length+timing (LR)": {
+    "auc": 0.611545138888889
+   },
+   "length+timing+overlap (LR)": {
+    "auc": 0.9894606733091788
+   },
+   "positives": 144
+  },
+  "same-app (different users)": {
+   "overlap": {
+    "auc": 0.9999999999999999,
+    "ci95": [
+     0.9999999999999999,
+     1.0
+    ]
+   },
+   "length": {
+    "auc": 0.5143608940972222,
+    "ci95": [
+     0.4930937308051691,
+     0.5360912518529084
+    ]
+   },
+   "timing": {
+    "auc": 0.5036500530478395,
+    "ci95": [
+     0.4822327926504264,
+     0.5240567619267809
+    ]
+   },
+   "length+timing (LR)": {
+    "auc": 0.5006896219135802
+   },
+   "length+timing+overlap (LR)": {
+    "auc": 1.0
+   },
+   "positives": 960
+  },
+  "next-turn linking accuracy": 0.8364971819402933,
+  "next-turn linking accuracy, turn 1": 0.5094915458208802,
+  "next-turn linking accuracy, turn 2": 1.0,
+  "next-turn linking accuracy, turn 3": 1.0,
+  "noise: overlap, unrelated pairs (consecutive)": 0.11018566845589484,
+  "noise: overlap, unrelated pairs (non-consecutive)": 0.004794021816784233,
+  "overlap, same app diff user (mean)": 0.5952574299972552,
+  "overlap, same user (mean)": 0.8452930522169921,
+  "timing_feature": "ttft_ratio",
+  "cost": {
+   "uncached_tokens_computed": 25949.0,
+   "mean_ttft_ratio": 8.67184375,
+   "mean_latency_s": 10.882854166666666,
+   "mean_cpu_s": 48.15937500000001,
+   "total_hit_tokens": 68608.0,
+   "total_prompt_tokens": 94557.0
+  }
+ },
+ {
+  "setting": "salted",
+  "n_requests": 96,
+  "n_pairs": 4560,
+  "same-user": {
+   "overlap": {
+    "auc": 1.0,
+    "ci95": [
+     0.9999999999999999,
+     1.0
+    ]
+   },
+   "length": {
+    "auc": 0.36719221769323673,
+    "ci95": [
+     0.3334757262334812,
+     0.4026842822910657
+    ]
+   },
+   "timing": {
+    "auc": 0.4144100367351047,
+    "ci95": [
+     0.3695216107143558,
+     0.45774677714182616
+    ]
+   },
+   "length+timing (LR)": {
+    "auc": 0.5927278331320451
+   },
+   "length+timing+overlap (LR)": {
+    "auc": 0.9999999999999999
+   },
+   "positives": 144
+  },
+  "same-app (different users)": {
+   "overlap": {
+    "auc": 0.49290002893518514,
+    "ci95": [
+     0.4735081982229564,
+     0.5128377037901158
+    ]
+   },
+   "length": {
+    "auc": 0.5143608940972222,
+    "ci95": [
+     0.4920808131082657,
+     0.5358547145858841
+    ]
+   },
+   "timing": {
+    "auc": 0.5364300009645062,
+    "ci95": [
+     0.5150014420048831,
+     0.5592471136173067
+    ]
+   },
+   "length+timing (LR)": {
+    "auc": 0.49871826171875
+   },
+   "length+timing+overlap (LR)": {
+    "auc": 0.5023848922164352
+   },
+   "positives": 960
+  },
+  "next-turn linking accuracy": 1.0,
+  "next-turn linking accuracy, turn 1": 1.0,
+  "next-turn linking accuracy, turn 2": 1.0,
+  "next-turn linking accuracy, turn 3": 1.0,
+  "noise: overlap, unrelated pairs (consecutive)": 0.11018566845589484,
+  "noise: overlap, unrelated pairs (non-consecutive)": 0.003882114212883175,
+  "overlap, same app diff user (mean)": 0.005464690707185703,
+  "overlap, same user (mean)": 0.8452930522169921,
+  "timing_feature": "ttft_ratio",
+  "cost": {
+   "uncached_tokens_computed": 36189.0,
+   "mean_ttft_ratio": 12.025093750000002,
+   "mean_latency_s": 3.5175625,
+   "mean_cpu_s": 16.787916666666668,
+   "total_hit_tokens": 58368.0,
+   "total_prompt_tokens": 94557.0
+  }
+ }
+]
